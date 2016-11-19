@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CA6B9F8E1DBB5EA20035D3B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6B9F8D1DBB5EA20035D3B9 /* main.m */; };
+		CA6B9F961DBB603B0035D3B9 /* CCallStack.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6B9F951DBB603B0035D3B9 /* CCallStack.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		CA6B9F8A1DBB5EA20035D3B9 /* Test_CallStack */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Test_CallStack; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA6B9F8D1DBB5EA20035D3B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA6B9F941DBB603B0035D3B9 /* CCallStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCallStack.h; sourceTree = "<group>"; };
+		CA6B9F951DBB603B0035D3B9 /* CCallStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCallStack.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				CA6B9F8D1DBB5EA20035D3B9 /* main.m */,
+				CA6B9F941DBB603B0035D3B9 /* CCallStack.h */,
+				CA6B9F951DBB603B0035D3B9 /* CCallStack.m */,
 			);
 			path = Test_CallStack;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA6B9F961DBB603B0035D3B9 /* CCallStack.m in Sources */,
 				CA6B9F8E1DBB5EA20035D3B9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
