@@ -4,8 +4,8 @@
 
 Name | Address
 ---- | ------
-Sun    Beijing
-Wang   Nanjing
+Sun   Beijing
+Wang  Nanjing
 
 > Files
 > Funcitons #<Markdown>
